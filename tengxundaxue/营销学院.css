@@ -1,0 +1,629 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.nav{
+	height: 72px;
+	width: 100%;
+	/* background-color: red; */
+	display: flex;
+	flex-wrap: nowrap;
+	position: relative;
+	font-family: -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+    font-size: 16px;
+}
+.logo{
+	width: 312px;
+	height: 72px;
+	margin-left: 40px;
+	cursor: pointer;
+
+}
+.logo a{
+	background-image:url(img/Marketing/logo.png);
+	background-repeat: no-repeat;
+	background-size: 312px 28px; 
+	height: 28px;
+	display:inline-block;
+	width: 312px;
+	margin-top: 21px;
+}
+.nav-center{
+	width: 994px;
+	height: 72px;
+	/* background-color: palegoldenrod; */
+	}
+.nav-center ul{
+	height: 72px;
+	width: 695px;
+    /* background-color: #00BFFF; */
+	margin: auto;
+	}
+.nav-center ul li{
+	height: 72px;
+	float: left;
+	list-style: none;
+	line-height: 72px;
+}
+.nav-center ul li a{
+	height: 72px;
+	display: block;
+	margin-left: 40px;
+	text-decoration: none;
+	color: #687799;
+}
+.nav-center ul li a:hover{
+	color: #276bef;
+}
+.nav-center ul li p{
+		color: #276bef;
+		position: relative;
+		display: inline-block;
+			font-weight: 700;
+}
+.nav-center ul li p::after{
+	content:"" ;
+	width: 32px;
+	height: 6px;
+	border-radius:3px;
+	background-color: #276bef;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.nav-center ul li span{
+	background-image: url(img/Marketing/arrow-down.png);
+	background-repeat: no-repeat;
+	background-size: 16px 8px;
+	width: 16px;
+	height: 8px;
+	display: inline-block;
+	margin-left: 5px;
+}
+.nav-left{
+	width: 150px;
+	height: 72px;
+	/* background-color: darkorange; */
+	/* margin-left: 40px; */
+	position: absolute;
+	right: 40px;
+	top: 0;
+}
+.nav-left a{
+	text-decoration: none;
+	display: inline-block;
+	margin:16px 0 16px 16px;
+		height: 40px;
+	}
+.registered{
+	width: 32px;
+	color: #276bef;
+}
+.registered:hover{
+	color: #0045cc;
+}
+.log{
+	width: 80px;
+	background-color: rgba(41,107,239,1);
+	border-radius: 24px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	box-shadow: 0 6px 12px 0 rgba(44,114,255,.18);
+}
+.log:hover{
+	background-color: #165be0;
+}
+.banner{
+	width: 100%;
+	height: 450px;
+	background-color: rgb(0, 77, 230);
+	font-family: -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+}
+.bg{
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+.content{
+	width: 480px;
+	height: 200px;
+	/* background-color: peachpuff; */
+	top: 80px;
+	position: absolute;
+	color: #fff;
+}
+.tit{
+	height: 82px;
+	font-size:40px;
+	position: relative;
+}
+.tit::after{
+	width: 32px;
+	height: 6px;
+	 background-color: white; 
+    border-radius: 3px;
+	content: "";
+	position: absolute;	
+	bottom: 0;
+	left: 0;
+}
+.txt{
+	height: 60px;
+	/* background-color: turquoise; */
+	margin: 20px 0 33px;
+	font-size: 20px;
+}
+.wg{
+	width: 720px;
+	height: 100%;
+	background-image: url(img/Marketing/bg.png);
+	background-repeat: no-repeat;
+	background-size:720px 425px ;
+	position: absolute;
+	left: 480px;
+	bottom: -25px;
+}
+.item{
+	height: 430px;
+	width: 100%;
+	background-color: #f5f9ff;
+	padding: 60px 0;
+}
+.live{
+	height: 430px;
+	width: 1200px;
+	margin: auto;
+	font-family: -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+}
+.courier {
+	color:#0b1531;
+	font-size: 24px;
+	background-image: url(img/Marketing/tit-bg.png);
+	background-repeat: no-repeat;
+	background-size: 20px auto;
+	background-position: left center;
+	text-indent: 1.5em;
+	margin-bottom: 34px;
+    height: 32px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.live1{
+	height: 360px;
+	 background-color:white; 
+	display: flex;
+	flex-wrap: nowrap;
+	cursor: pointer;
+	box-shadow: 0 4px 16px 0 rgba(0,116,255,.1);
+	border-radius: 12px;
+}
+.live-right ul{
+	height:360px;
+	width: 99px;
+	/* background-color: beige; */
+	border-right: 1px red solid;
+	list-style:none ;
+}
+.live-right ul li a{
+	height: 60px;
+	width: 83px;
+	background-color: white;
+	display: block;	
+	padding: 12px 0 0 16px;
+		text-decoration: none;
+		color: #7d8bb3;
+		font-size: 16px;
+}
+.live-right ul li a:hover{
+	color: #296bef;
+	}
+.live-right ul li a span{
+	height: 24px;
+	display: block;
+}
+.live-right ul .on a{
+	position: relative;
+	color: #296bef;
+	background-color: #f5f9ff;
+}
+.live-right ul .on a::after{
+	width: 6px;
+	height: 32px;
+	border-radius: 3px;
+	background-color: #006df8;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 14px;
+}
+.live-center{
+	width: 416px;
+	/* background-color: plum; */
+	height: 360px;
+	padding: 0 48px;	
+}
+.type{
+	height: 34px;
+	width: 80px;
+	background-color: #e0eaff;
+	color: #727d9f;
+	border-radius: 0 0 8px 8px;
+	text-align: center;
+	line-height: 34px;
+	margin-bottom: 29px;
+	font-size: 14px;
+}
+.time{
+	height: 34px;
+	width: 416px;
+	/* background-color: wheat; */
+	background-image: url(img/Marketing/icon-rili.png);
+	background-repeat: no-repeat;
+	background-size: 18px auto;
+	background-position: left 8px;
+	color: #296bef;
+	line-height: 34px;
+	font-size: 16px;
+	text-indent: 1.5em;
+	padding-bottom: 26px;
+}
+.live-center h4{
+	display: block;
+	height: 72px;
+	width: 416px;
+	color: #0B1531;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 12px;
+}
+.bth{
+	width: 112px;
+	height: 40px;
+	background-color: #296bef;
+	color: #fff;
+	border-radius: 25px;
+	box-shadow: 0 6px 12px 0 rgba(44,114,255,.18);
+	text-align: center;
+	line-height: 40px;
+	margin-top: 80px;
+}
+.bth:hover{
+	background-color: #165be0;	
+}
+.live-left{
+	background-image: url(img/Marketing/go.jpg);
+	background-repeat: no-repeat;
+	background-size: 568px 320px;
+	width:568px ;
+	height: 320px;
+	margin: 20px 0;
+}
+.project{
+    height: 360px;
+	width: 100%;
+	padding: 58px 0 54px;
+}
+.choose{
+	height: 412px;
+	width: 1200px;
+	margin: auto;
+	font-family: -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+}
+.bar{
+    width: 120px; 
+	height: 32px;
+	display: flex;
+	font-size: 16px;
+}
+.bar p{
+	height: 14px;
+    width: 18px;
+	background-repeat: no-repeat;
+	background-size: 18px 14px;
+	/* display: inline-block; */
+	margin-top: 9px;
+	cursor: pointer;
+}
+.barter{
+	height: 32px;
+	width: 80px;
+	 /* display: inline-block; */
+	text-align: center;
+	line-height: 32px;
+		text-indent: 0;
+}
+.curent{
+	color: #296bef;
+}
+.totle{
+	color: #c4d4f5;
+}
+.bar-one{
+	background-image: url(img/Marketing/arr-2-1.png);
+}
+.bar-two{
+	background-image: url(img/Marketing/arr-2-2.png);
+}
+.polite{
+	height: 300px;
+	display: flex;
+}
+.polite-one{
+	height: 260px;
+	width: 248px;
+	padding: 20px 0;
+	box-shadow: 0 4px 16px rgba(0,60,179,.12);
+	border-radius: 12px;
+	border: 1px solid #e0eaff;
+    padding: 12px 12px;
+	transition: all .3s;
+}
+.polite-one:hover{
+	transform: translateY(-8px);
+}
+.polite-one img{
+	height: 138px;
+	width: 248px;
+}
+.polite-one h4{
+	font-size: 16px;
+	color:#0b1531 ;
+	font-weight: 700;
+	height: 48px;
+	display: block;
+	padding: 16px 0;
+}
+.fot{
+	height: 36px;
+	display: flex;
+}
+.fot img{
+	width: 20px;
+    height: 16px;
+		margin-top: 10px;
+}
+.star{
+	height: 36px;
+	display: flex;
+	flex-wrap: nowrap;
+	position: relative;
+	padding: 0 10px;
+}
+.star span{
+	font-size: 14px;
+	color: #bccbeb;
+	line-height: 36px;
+	}
+.star img{
+	height:16px ;
+	width: 16px;
+	margin: 10px 8px;
+}
+.star::after{
+	content: '';
+	    position: absolute;
+	    width: 1px;
+	    height: 14px;
+	    background: #c4d4f5;
+	    border-radius: 1px;
+		left: 8px;
+		top: 11px;
+}
+.fot p{
+	height: 24px;
+	background-image: url(img/Marketing/icon-collect.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	background-size: 20px 24px;
+	margin: 6px 0  0 100px;
+}
+.courier1{
+	width: 1080px;
+}
+.polite-two{
+	margin-left:35px;
+}
+.polite-three{
+	margin: 0 35px;
+}
+.study{
+	height: 420px;
+	width: 100%;
+	background-image: url(img/Marketing/banner-04.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: auto 312px;
+	padding: 58px 0 0;
+}
+.wp{
+	width: 1200px;
+	margin: auto;
+	font-family: -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+}
+.courier2{
+	background-image: url(img/Marketing/tit-bg2.png);
+	color: white;
+}
+.wp ul{
+	height: 280px;
+	list-style: none;
+	display: flex;
+	border-bottom: 1px solid #e9f0ff;
+	padding-bottom: 64px;
+}
+.wp ul li a{
+	width:304px ;
+	height: 200px;
+	text-decoration: none;
+	display: block;
+	padding: 40px;
+	 background-color: #fff; 
+	 box-shadow: 0 4px 16px rgba(0,60,179,.12);
+	 border-radius: 12px;
+	 transition: all .3s;
+}
+.wp ul li a:hover{
+	transform: translateY(-8px);
+}
+.wp ul li img{
+	height: 80px;
+	width: 80px;
+	display: block;
+	margin-bottom: 33px;
+}
+.wp ul li h5{
+	color: #0b1531;
+	font-size: 24px;
+	font-weight: 400;
+}
+.desc{
+	font-size: 14px;
+	margin-top: 11px;
+	color: #6b7799;
+	width: 266px;
+	    overflow: hidden;
+	    display: -webkit-box;
+	    -webkit-box-orient: vertical;
+	    -webkit-line-clamp: 2;
+}
+.certification{
+	margin: 0 24px;
+}
+.qualifications{
+	height: 450px;
+	width: 100%;
+	padding: 59px 0 64px;
+}
+.engineering{
+	width:1200px;
+	margin: auto;
+	height: 450px;
+	font-family: -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+}
+.engineering ul{
+	height: 380px;
+	width: 1200px;
+	list-style: none;
+	display: flex;
+}
+.engineering ul li a{
+	width: 384px;
+	display: block;
+	text-decoration: none;
+	height: 380px;
+	 transition: all .3s;
+	 box-shadow: 0 4px 16px rgba(0,60,179,.12);
+	     border-radius: 12px;
+}
+.engineering ul li a:hover{
+	transform: translateY(-8px);
+}
+ .engineering ul li a img{
+	height: 216px;
+} 
+.marketing{
+	height: 90px;
+	width: 304px;
+  padding:34px 40px 40px ; 
+  margin-top: -6px;
+  background-color: #000D51;
+ }
+.marketing h5{
+	color: white;
+	font-size: 24px;
+}
+.footer{
+	height: 320px;
+	width: 100%;
+	background-color: #0b1531;
+	margin-top: 64px;
+}
+.bottom{
+	height: 166px;
+	width: 1200px;
+	padding: 65px 0 28px;
+	margin: auto;
+	display: flex;
+	font-family: -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+}
+.bottom img{
+	height: 78px;
+	width: 100px;
+	cursor: pointer;
+}
+.bottom ul{
+	height: 156px;
+	width: 64px;
+		 margin-left: 265px;
+}
+.bottom ul li{
+	height: 40px;
+	width: 64px;
+	line-height: 40px;
+	list-style: none;
+	font-size: 16px;
+	 color: #4d5a80;
+}
+.bottom ul .foot-two{
+		cursor: pointer;
+}
+.bottom ul .foot-two:hover{
+	color:#296bef;
+}
+.bottom ul .foot-one{
+	    font-weight: 400;
+	    color: #7d8bb3;
+		margin-bottom: 5px;		
+}
+.ep{
+	height: 166px;
+	width: 176px;
+	margin-left: 266px;
+}
+.ep h3{
+	  font-size: 16px;
+	    font-weight: 400;
+	    color: #7d8bb3;
+}
+.ep img{
+	height: 120px;
+	width: 120px;
+	margin: 23px 23px 0;
+}	
+.fd{
+	height: 60px;
+	width: 1200px;
+	margin: auto;
+	border-top: 1px solid #242d47;
+	display: flex;
+	font-size: 14px;
+	font-family: -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+}
+.fd-link{
+	width: 510px;
+	display: flex;
+	line-height:60px ;
+}
+.fd-link a{
+	text-decoration: none;
+	color: #4d5a80;
+	font-size: 14px;
+	margin-right: 32px;
+}
+.fd-link a:hover{
+    color:#296bef; 
+	}
+.copyright{
+	line-height:60px ;
+	color: #4d5a80;
+	margin-left: 180px;
+}
+	
+	
+	
+
+
+ 
+	

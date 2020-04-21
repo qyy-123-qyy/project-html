@@ -1,0 +1,799 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	height: 40px;
+	background-color: #2b303b;
+	color: white;
+	padding: 0 10px 0 20px;
+	display: flex;
+}
+
+.nav a {
+	width: 74px;
+	display: inline-block;
+	height: 40px;
+	position: relative;
+}
+
+.nav a img {
+	margin-top: 4px;
+}
+
+.nav a span {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	font-size: 14px;
+	color: white;
+
+}
+
+.logo {
+	width: 78px;
+	background-image: url(img/腾讯云/logo-bg-color.svg);
+	background-repeat: no-repeat;
+	margin-left: 13px;
+	background-position: center;
+}
+
+.nav-right {
+	width: 180px;
+	height: 40px;
+	margin-left: 1165px;
+}
+
+.nav-right ul li {
+	font-size: 12px;
+	list-style: none;
+	float: left;
+	padding: 0 10px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.nav-right ul li:hover {
+	color: #00a4ff;
+}
+
+.daohang {
+	height: 55px;
+	display: flex;
+	position: relative;
+	background-color: #20252E;
+	font-size: 14px;
+}
+
+.coll {
+	background-image: url(img/腾讯云/education-202001152000.svg);
+	display: inline-block;
+	width: 100px;
+	height: 18px;
+	margin: 18.5px 20px;
+}
+
+.daohang ul li {
+	float: left;
+	list-style: none;
+}
+
+.daohang ul li a {
+	color: white;
+	padding: 0 15px;
+	height: 54px;
+	line-height: 54px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.daohang ul li .nav-first {
+	color: #00a4ff;
+}
+
+.daohang ul li a:hover {
+	color: #00a4ff;
+}
+
+.nav-left {
+	width: 360px;
+	height: 54px;
+	position: absolute;
+	right: 0;
+	display: flex;
+}
+
+.serch {
+	width: 240px;
+	height: 36px;
+	background-color: #2b303b;
+	margin: 9px 10px 0;
+}
+
+.serch input {
+	height: 36px;
+	width: 192px;
+	margin: 0 0 9px 10px;
+	outline: none;
+	border: none;
+	background-color: #2b303b;
+}
+
+.serch span {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(img/腾讯云/education-202001152000.svg);
+	background-position: 20.44% 99.45%;
+	background-repeat: no-repeat;
+}
+
+.load {
+	height: 54px;
+	width: 100px;
+	display: flex;
+}
+
+.load span {
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #fff;
+	margin-top: 25px;
+}
+
+.load a {
+	color: #fff;
+	display: inline-block;
+	height: 54px;
+	line-height: 54px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+.load a:hover {
+	color: #00a4ff;
+}
+
+.banner {
+	width: 100%;
+	height: 510px;
+	padding: 55px 0 30px;
+}
+
+.bg {
+	height: 460px;
+	width: 1180px;
+	margin: auto;
+	padding: 40px 0 10px;
+	display: flex;
+}
+
+.course {
+	width: 704px;
+	height: 364px;
+	background-image: url(img/腾讯云/cfhxszdzwr.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	padding: 48px;
+	background-size: 800px 460px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.course:hover .more {
+	color: #00a4ff;
+}
+
+.course h1 {
+	width: 400px;
+	height: 60px;
+	font-size: 44px;
+	color: #fff;
+	display: block;
+}
+
+.course h2 {
+	width: 400px;
+	height: 28px;
+	font-size: 16px;
+	display: block;
+	margin-top: 32px;
+}
+
+.more {
+	width: 160px;
+	height: 48px;
+	line-height: 46px;
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.menu ul {
+	width: 360px;
+	margin-left: 20px;
+	height: 460px;
+	list-style: none;
+}
+
+.menu ul li a {
+	width: 360px;
+	height: 140px;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: 160px 140px;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.menu ul li a:hover {
+	transform: translateY(-8px);
+}
+
+.menu ul li a:hover .mean-top h3 {
+	color: #00a4ff;
+}
+
+.menu ul li .menu-first {
+	background-image: url(img/腾讯云/s0ok142js4.jpg);
+}
+
+.menu ul li .menu-two {
+	background-image: url(img/腾讯云/napm007mqw.jpg);
+	margin: 19px 0;
+}
+
+.menu ul li .menu-three {
+	background-image: url(img/腾讯云/jo7w2we5km.jpg);
+}
+
+.mean-top {
+	height: 108px;
+	width: 168px;
+	padding: 16px;
+	margin-left: 160px;
+	background-color: white;
+		box-shadow:4px 4px 4px rgba(0,0,0,.1);
+}
+
+.mean-top h3 {
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	height: 56px;
+	display: block;
+}
+
+.menu-detail {
+	width: 168px;
+	height: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #999;
+	font-size: 16px;
+	white-space: nowrap;
+	margin-top: 26px;
+}
+
+.daka {
+	height: 344px;
+	width: 1180px;
+	padding: 40px 0;
+	margin: auto;
+}
+
+.share {
+	line-height: 40px;
+	font-size: 28px;
+	color: #000;
+	font-weight: 400;
+	width: 996px;
+	display: inline-block;
+}
+
+.look {
+	width: 86px;
+	display: inline-block;
+	position: relative;
+	margin-left: 93px;
+}
+
+.daka span {
+	font-size: 16px;
+	color: #000;
+}
+
+.see {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(img/腾讯云/education-202001152000.svg);
+	background-position: 56.39% 66.55%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 4px;
+	right: 0;
+}
+
+.neirong {
+	height: 280px;
+	width: 1180px;
+	margin-top: 30px;
+	display: flex;
+}
+
+.nr-right {
+	width: 460px;
+	height: 280px;
+	background-color: gainsboro;
+	background-image: url(img/腾讯云/tokabqiika.png);
+	background-repeat: no-repeat;
+	background-size: 240px auto;
+	background-position: 220px 0;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+.nr-right:hover {
+	transform: translateY(-8px);
+}
+
+.content {
+	width: 240px;
+	height: 192px;
+	padding: 16px 16px 0;
+}
+
+.replay {
+	width: 47px;
+	height: 24px;
+	padding: 0 12px;
+	font-size: 12px;
+	color: #000;
+	background-color: #fff;
+	box-shadow: 0 2px 4px 0 rgba(3, 27, 78, .06);
+	border-radius: 12px;
+	display: flex;
+	line-height: 24px;
+	margin-bottom: 12px;
+}
+
+.replay span {
+	width: 7px;
+	height: 8px;
+	background-image: url(img/腾讯云/education-202001152000.svg);
+	background-position: 50.67% 46.71%;
+	background-size: 4357.142857142857% 3712.5%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.nr-ceter {
+	width: 240px;
+	height: 84px;
+}
+
+.nr-ceter h3 {
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	display: block;
+	height: 54px;
+	line-height: 28px;
+}
+
+.course-date {
+	margin-top: 8px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #000;
+}
+
+.nr-bottom {
+	height: 52px;
+	margin-top: 20px;
+
+}
+
+.course-en {
+	font-size: 12px;
+	color: #666;
+	/* line-height: 35px;*/
+	margin-top: 10px;
+}
+
+.wacth a {
+	display: block;
+	background-color: white;
+	color: #666;
+	height: 36px;
+	width: 98px;
+	font-size: 14px;
+	padding: 0 10px;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	margin: 16px 16px;
+}
+
+.item {
+	width: 200px;
+	height: 264px;
+	background-color: gainsboro;
+	padding: 16px 10px 0;
+	background-repeat: no-repeat;
+	background-size: 140px auto;
+	background-position: 80px 115px;
+	margin-left: 20px;
+	transition: all .3s;
+	cursor: pointer;
+}
+.item-first{
+		background-image: url(img/腾讯云/837z2vx691.png);
+		}
+		.item-two{
+				background-image: url(img/腾讯云/u1rr6obh7e.png);
+				}
+.item-three{
+				background-image: url(img/腾讯云/qgyaeb4rv2.png);
+				}
+.item:hover {
+	transform: translateY(-8px);
+}
+
+.nr-bottom-first {
+	margin-top: 70px;
+}
+
+.course-en-firs {
+	width: 95px;
+	line-height: 1.5;
+	
+}
+
+.raiders {
+	width: 1180px;
+	height: 520px;
+	margin: auto;
+	padding: 40px 10px;
+}
+
+.share-nav {
+	height: 40px;
+	width: 1180px;
+	display: flex;
+}
+
+.cull {
+	height: 40px;
+	width: 209px;
+}
+
+.cull ul li {
+	list-style: none;
+	float: left;
+	padding: 10px 0;
+	margin-left: 20px;
+	height: 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.cull ul li:hover {
+	color: #00a4ff;
+}
+
+.cull ul .cull-first {
+	margin: 0;
+	color: #00a4ff;
+	font-weight: 700;
+	position: relative;
+}
+
+.cull ul .cull-first::after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #00a4ff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.product {
+	height: 450px;
+	margin: 30px 0 0;
+	display: flex;
+}
+
+.c-g-1 {
+	width: 280px;
+	height: 450px;
+	background-image: url(img/腾讯云/bg-product-lg4.svg);
+	background-repeat: ;
+}
+
+.c-g-2 {
+	width: 232px;
+	height: 332px;
+	padding: 20px 24px 0;
+}
+
+.c-g-2 span {
+	color: white;
+	font-size: 20px;
+	display: block;
+}
+
+.c-g-2 p {
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	line-height: 28px;
+	margin-top: 12px;
+}
+
+.c-g-3 {
+	width: 232px;
+	height: 164px;
+	margin-top: 24px;
+}
+
+.c-g-3 a {
+	height: 32px;
+	display: inline-block;
+	color: hsla(0, 0%, 100%, .8);
+	border-radius: 16px;
+	padding: 0 12px;
+	background: hsla(0, 0%, 100%, .15);
+	margin: 0 3px 12px 0;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 32px;
+}
+
+.c-g-4 a {
+	display: block;
+	color: #333;
+	background-color: #fff;
+	width: 212px;
+	height: 48px;
+	padding: 0 10px;
+	margin: 20px 0 0 24px;
+	text-align: center;
+	line-height: 48px;
+	text-decoration: none;
+}
+
+.d-1 {
+	height: 450px;
+	width: 880px;
+	background-color: #F5F5F5;
+	margin-left: 20px;
+}
+
+.d-1 ul li {
+	width: 280px;
+	height: 214px;
+	background-color: palegoldenrod;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-size: 280px 120px;
+	position: relative;
+	float: left;
+	box-shadow:4px 4px 4px rgba(0,0,0,.1);
+	cursor: pointer;
+	transition: all .3s;
+}
+.d-1 ul li:hover{
+	transform: translateY(-8px);
+	}
+.d-1 ul li.d-1-1{
+		background-image: url(img/腾讯云/el60wz026m.jpg);
+		}
+
+.d-1 ul li.d-2-2 {
+	margin: 0 20px;
+	background-image: url(img/腾讯云/u2tj4vpp0q.jpg);
+}
+.d-1 ul li.d-3-3 {
+	background-image: url(img/腾讯云/76zad4o5wx.jpg);
+}
+.d-1 ul li.d-4-4 {
+	background-image: url(img/腾讯云/vrgai46roq.jpg);
+	margin-top: 22px;
+}
+.d-1 ul li.d-5-5 {
+	background-image: url(img/腾讯云/wgyreiq843.jpg);
+		margin: 22px 20px 0;
+}
+.d-1 ul li.d-6-6 {
+	background-image: url(img/腾讯云/cj9v3hclvh.jpg);
+		margin-top: 22px;
+}
+.d-2 {
+	height: 70px;
+	width: 246px;
+	background-color: white;
+	padding: 12px 17px;
+	position: absolute;
+	top: 120px;
+}
+
+.d-3 {
+	height: 48px;
+	line-height: 24px;
+}
+
+.e-1 {
+	width: 1180px;
+	height: 400px;
+	margin: auto;
+	padding: 0 10px;
+	display: flex;
+}
+
+.e-2 {
+	height: 280px;
+	width: 510px;
+	padding: 60px 80px 60px 0;
+}
+
+.e-3 {
+	height: 48px;
+	width: 48px;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+.e-4{
+		background-image: url(img/腾讯云/icon-framework-xl8.svg);
+		}
+		.e-5{
+				background-image: url(img/腾讯云/icon-employee-xl1.svg);
+				}
+
+.e-title {
+	line-height: 36px;
+	font-size: 24px;
+	color: #000;
+	font-weight: 400;
+}
+
+.e-desc {
+	margin-top: 16px;
+	line-height: 28px;
+	font-size: 16px;
+	color: #666;
+}
+
+.e-link a {
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background: #00a4ff;
+	border: 1px solid #00a4ff;
+	border-radius: 2px;
+	width: 138px;
+	height: 42px;
+	padding: 0 10px;
+	line-height: 42px;
+	text-decoration: none;
+	margin-top: 32px;
+}
+
+.f-1 {
+	width: 100%;
+	height: 320px;
+	background-color: #f5f7fa;
+}
+
+.f-2 {
+	width: 1180px;
+	height: 220px;
+	padding: 50px 10px;
+	margin: auto;
+}
+
+.f-content {
+	width: 1180px;
+	height: 120px;
+	margin-top: 60px;
+}
+
+.f-content ul li {
+	height: 80px;
+	width: 255px;
+	padding: 0 20px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-size: 80px 80px;
+	background-position: 20px 0;
+	position: relative;
+	float: left;
+}
+.f-1-1{
+		background-image: url(img/腾讯云/85d42c06559887827d58323ed6b617ee.png);
+		}
+.f-2-1{
+		background-image: url(img/腾讯云/7f6d77ba70c79410ac39327ace7a87d9.png);
+		}
+			.f-3-1{
+					background-image: url(img/腾讯云/9f184ea7e69743bd6247c06b517f5b07.png);
+					}
+					.f-4-1{
+							background-image: url(img/腾讯云/0bfc49154556e9fcfebd2e4d16aaba16.png);
+							}
+.f-tix {
+	height: 50px;
+	width: 164px;
+	padding: 15px 0 15px 20px;
+	position: absolute;
+	right: 15px;
+}
+
+.f-tix p {
+	line-height: 24px;
+	font-size: 18px;
+	color: #000;
+}
+
+.f-tix span {
+	line-height: 36px;
+	font-size: 14px;
+	color: #666;
+	display: block;
+}
+
+.bottom {
+	height: 50px;
+	width: 100%;
+	background: #2e3033;
+	padding: 30px 0;
+}
+
+.bottom-one {
+	width: 1150px;
+	height: 52px;
+	margin: auto;
+}
+.bottom-two{
+	height: 26px;
+	width: 1000px;
+	display: flex;
+	}
+.bottom-two  .icon{
+	background-image: url(img/腾讯云/base-201911291451.svg);
+	background-position: 0.75% 15.3%;
+	background-repeat: no-repeat;
+	background-size:246.154% 1243.75%;
+	width: 91px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 25px;
+}
+.bottom-two a{
+	color:rgb(204, 204, 204);
+	font-size: 12px;
+text-decoration: none;
+line-height: 22px;
+margin-right: 15px;
+}
+.bottom-two a:hover{
+	color: #00a4ff;
+	}
+.bottom-two .slide{
+	    margin-right: 15px;
+	    font-size: 12px;
+	    line-height: 26px;
+	    color: #ccc;
+		display: inline-block;
+}
